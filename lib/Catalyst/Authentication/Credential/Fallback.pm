@@ -5,7 +5,7 @@ use warnings;
 
 use base 'Class::Accessor::Fast';
 
-our $VERSION = 1.000;
+our $VERSION = 1.001;
 
 BEGIN {
     __PACKAGE__->mk_accessors(qw/realm_list realm/);
